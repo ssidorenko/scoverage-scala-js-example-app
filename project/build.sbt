@@ -1,5 +1,5 @@
-/* resolvers += Resolver.url("sbt-plugins",
-    url("https://dl.bintray.com/ssidorenko/sbt-plugins/"))(Resolver.ivyStylePatterns) */
+resolvers += Resolver.url("sbt-plugins",
+    url("https://dl.bintray.com/ssidorenko/sbt-plugins/"))(Resolver.ivyStylePatterns)
 
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.3")
 
